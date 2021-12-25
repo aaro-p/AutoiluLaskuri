@@ -46,26 +46,6 @@ const Input = () => {
                     </Col>
                 </Row>
             </div>
-
-
-            {/*<input*/}
-            {/*  type="text"*/}
-            {/*  placeholder="Trip Distance"*/}
-            {/*  value={tripDistance}*/}
-            {/*  onChange={(event) => setTripDistance(event.target.value)}*/}
-            {/*/>*/}
-            {/*<input*/}
-            {/*  type="text"*/}
-            {/*  placeholder="speed 1"*/}
-            {/*  value={tripSpeedA}*/}
-            {/*  onChange={(event) => setTripSpeedA(event.target.value)}*/}
-            {/*/>*/}
-            {/*<input*/}
-            {/*  type="text"*/}
-            {/*  placeholder="speed 2"*/}
-            {/*  value={tripSpeedB}*/}
-            {/*  onChange={(event) => setTripSpeedB(event.target.value)}*/}
-            {/*/>*/}
         </div>
     );
 };
