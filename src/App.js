@@ -1,18 +1,20 @@
-import React from 'react';
+import Input from "./components/Input";
+import 'antd/dist/antd.css';
+import TripInfo from "./components/TripInfo";
+import './styles.css';
+import {PageHeader} from 'antd'
+import {FcCalculator} from 'react-icons/fc'
 
 function App() {
-  return (
-    <div style={{ textAlign: 'center' }}>
-      <header>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div>
+            <PageHeader title="AUTOILU LASKURI" subTitle={<FcCalculator className="header-icon"/>} className="heading"/>
+            <div className="app-content">
+                <Input/>
+                <TripInfo/>
+            </div>
+        </div>
+    );
 }
 
 export default App;

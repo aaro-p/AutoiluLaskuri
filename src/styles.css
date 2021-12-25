@@ -1,0 +1,224 @@
+body {
+    background-color: rgba(231, 231, 231, 0.65);
+}
+
+.trip-data {
+    display: flex;
+}
+
+.ant-card-bordered {
+    width: 100%;
+    border: none;
+}
+
+.compare {
+    justify-content: space-between;
+    padding: 15px 15px;
+    margin: 15px 0;
+    border-radius: 9px;
+    background: #ffffff;
+    box-shadow: -2px 6px 12px -6px rgba(0, 0, 0, 0.55);
+    -webkit-box-shadow: -2px 6px 12px -6px rgba(0, 0, 0, 0.55);
+}
+
+.ant-statistic-content-suffix {
+    margin-left: 4px;
+    position: relative;
+    top: -5px;
+    left: 6px;
+}
+
+.ant-statistic-content {
+    justify-content: space-between;
+    display: flex;
+}
+
+.center-vs {
+    margin: auto;
+    padding-top: 20px;
+}
+
+.icon {
+    position: relative;
+    top: 4px;
+    left: -2px;
+    font-size: 17px;
+}
+
+.car-selector {
+    display: grid;
+    margin: 10px auto;
+    grid-template-columns: auto auto auto;
+    column-gap: 8px;
+    font-weight: bold;
+}
+
+.car-btn {
+    height: auto;
+    text-align: center;
+}
+
+.ant-radio-button-wrapper:first-child {
+    border: 1px solid #1890ff;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.ant-radio-button-wrapper:nth-child(2) {
+    border: 1px solid #1890ff;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.ant-radio-button-wrapper:nth-child(3) {
+    border: 1px solid #1890ff;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.ant-radio-button-wrapper:not(:first-child)::before {
+    width: 0;
+}
+
+.consumption-value {
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.c-icon {
+    height: 1.3em;
+    width: 1.3em;
+    position: relative;
+    top: 3px;
+    right: 4px;
+}
+
+.ant-input-number-group-addon {
+    color: #1890ff;
+    background-color: white;
+    font-weight: initial;
+    border: 1px solid rgba(24, 144, 255, 0.45);
+    border-radius: 5px 5px;
+}
+
+.ant-input-number {
+    border: 1px solid rgba(24, 144, 255, 0.45);
+    border-radius: 5px 5px;
+}
+
+.ant-statistic-content-value {
+    font-size: 0.85em;
+}
+
+.app-content {
+    max-width: 760px;
+    padding: 30px;
+    margin: 35px auto;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 7px 11px 9px -7px rgba(0, 0, 0, 0.51);
+}
+
+.input-label {
+    font-size: 11px;
+    position: relative;
+    top: 9px;
+    left: 2px;
+    font-weight: bold;
+}
+
+.ant-page-header-heading {
+    justify-content: center;
+}
+
+.heading {
+    box-shadow: 0 7px 5px -4px rgba(0, 0, 0, 0.42);
+    background-color: #3C1AFF;
+}
+
+.header-icon {
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 3px;
+}
+
+.ant-page-header-heading-title {
+    color: white;
+}
+
+.input-distance {
+    width: 100%;
+}
+
+.ant-col.input-width {
+    width: 45%;
+}
+
+.ant-input-number-group-wrapper {
+    width: 100%;
+}
+
+.ant-row.input-speed {
+    justify-content: space-between;
+}
+
+.trip-b {
+    float: right;
+    position: relative;
+    top: 45px;
+    right: 25px;
+}
+
+.trip-a {
+    position: relative;
+    top: 45px;
+    left: 25px;
+}
+
+.compare-title {
+    font-size: 13px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.time {
+    position: relative;
+    top: 6px;
+}
+
+.ant-card-body {
+    padding: 6px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .ant-statistic-content-value {
+        font-size: 12px;
+    }
+
+    .app-content {
+        border-radius: unset;
+        box-shadow: none;
+        margin: 0;
+        padding: 7vh 7px;
+    }
+
+    .car-selector p {
+        font-size: 11px;
+    }
+
+    .car-selector {
+        gap: 3px;
+    }
+
+    .consumption-value {
+        width: 100%;
+    }
+
+    .ant-card-body {
+        padding: 10px;
+    }
+
+    body {
+        background-color: white
+    }
+
+}
