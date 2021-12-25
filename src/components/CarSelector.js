@@ -3,7 +3,7 @@ import {Radio} from 'antd';
 import {BiGasPump} from 'react-icons/bi'
 
 const CarSelector = () => {
-    const {consumptionValue, setConsumptionValue} = useTripData();
+    const {setConsumptionValue} = useTripData();
 
 
     return (
