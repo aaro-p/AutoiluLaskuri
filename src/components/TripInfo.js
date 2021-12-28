@@ -42,6 +42,7 @@ const TripInfo = () => {
                 <Row className="compare">
                     <Col className="gutter-row" span={8}>
                         <Statistic
+                            className="stats"
                             value={setTimeFormat(tripTimeA)}
                             precision={2}
                             valueStyle={{color: '#000000'}}
@@ -57,6 +58,7 @@ const TripInfo = () => {
                     </Col>
                     <Col className="gutter-row" span={8}>
                         <Statistic
+                            className="stats"
                             value={setTimeFormat(tripTimeB)}
                             precision={2}
                             valueStyle={{color: '#000000'}}
@@ -71,6 +73,7 @@ const TripInfo = () => {
                 <Row className="compare">
                     <Col className="gutter-row" span={8}>
                         <Statistic
+                            className="stats"
                             value={`${totalConsumptionA} Liters`}
                             precision={2}
                             valueStyle={{color: '#000000'}}
@@ -86,6 +89,7 @@ const TripInfo = () => {
                     </Col>
                     <Col className="gutter-row" span={8}>
                         <Statistic
+                            className="stats"
                             value={`${totalConsumptionB} Liters`}
                             precision={2}
                             valueStyle={{color: '#000000'}}
@@ -100,6 +104,7 @@ const TripInfo = () => {
                 <Row className="compare">
                     <Col className="gutter-row" span={8}>
                         <Statistic
+                            className="stats"
                             value={`${averageConsumptionA} Liters`}
                             precision={2}
                             valueStyle={{color: '#000000'}}
@@ -115,6 +120,7 @@ const TripInfo = () => {
                     </Col>
                     <Col className="gutter-row" span={8}>
                         <Statistic
+                            className="stats"
                             value={`${averageConsumptionB} Liters`}
                             precision={2}
                             valueStyle={{color: '#000000'}}

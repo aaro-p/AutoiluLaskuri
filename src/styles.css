@@ -179,17 +179,16 @@ body {
     text-align: center;
 }
 
-.time {
-    position: relative;
-    top: 6px;
-}
-
 .ant-card-body {
     padding: 6px;
 }
 
+.time{
+    position: relative;
+    top: 6px;
+}
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 462px) {
     .ant-statistic-content-value {
         font-size: 12px;
     }
@@ -217,8 +216,47 @@ body {
         padding: 10px;
     }
 
+    .stats .ant-statistic-content {
+        display: inline-block;
+    }
+
+    .stats .ant-statistic-content .ant-statistic-content-suffix {
+        margin-left: 4px;
+        position: relative;
+        top: -5px;
+        left: 6px;
+    }
+
+    .stats .ant-statistic-content {
+        height: 75px;
+        text-align: center;
+    }
+
+    .stats .ant-statistic-content-value{
+        width: 60px;
+    }
+
+    .compare-title {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .icon {
+        position: relative;
+        left: 0;
+    }
+
+    .ant-col-4{
+        margin: auto;
+        min-height: 73px;
+    }
+
+
     body {
         background-color: white
     }
 
+    .time{
+        top: 0;
+    }
 }
