@@ -5,6 +5,8 @@ Tein tämän projektin alunperin vanilla javascriptillä keväällä 2021. Tein 
 Ongelma vaikutti mielenkiintoiselta, joten halusin tehdä oman ratkaisuni, vaikka en kerennyt osallistumaan varsinaiseen haasteeseen.
 Tutustuin projektin aika myös Ant Design UI libraryyn, jolla UI on tehty.
 
+netlify: https://aarop-autoilulaskuri.netlify.app/
+
 # Installation:
 
 `npm install`
